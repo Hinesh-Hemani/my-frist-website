@@ -19,7 +19,10 @@ p{
     font-weight: 400;
     color: #606060;
 }
-h2{
+i{
+  color: #2fccd0;
+}
+.extra-div h2,.servicediv h2{
   font-size: 0.9rem;
   margin: 20px 0 15px 0;
   font-weight: bold;
@@ -130,5 +133,33 @@ cursor: pointer;
 
 
 /* offer section css start */
+.serviceoffer{
+  background: #f7f7f9;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.heading h1{
+ font-size: 1.5rem;
+ font-weight: 600;
+ text-transform: capitalize;
+}
+.names h1{
+  color: #2e2e2e;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.service-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.progress{
+  height: 0.6rem !important;
+  margin-bottom: 25px !important;
+  background: #606060;
+
+
+}
 /* offer section css end */
